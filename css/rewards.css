@@ -85,7 +85,19 @@ header.startup h1{
    90%{color: DodgerBlue;}
      100%{color: orange;}
  }
- 
+ .scores{
+margin-top:25em;
+display:flex;
+ }
 
+ .circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #000;
+  line-height: 90px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
 
-
+}
