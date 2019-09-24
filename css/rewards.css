@@ -14,15 +14,19 @@ body {
   color: rgba(255, 255, 255, 0.8); 
 }
 
-header.startup {
+header.startup{
   background-position: center;
   background-image: url("../images/pencil.jpg") ;
   background-size:cover;
   height:100%;
 }
 header.startup h1{
-    transform:rotate(-15deg);
     font-size:5em;
+    text-align:center;
+}
+.caption{
+  margin-top:200px;
+  
 }
 .rainbow {
   
@@ -39,6 +43,7 @@ header.startup h1{
    
    /* Standar Syntax */
    animation: rainbow 5s infinite; 
+   text-align:center;
  }
  
  /* Chrome, Safari, Opera */
@@ -85,9 +90,15 @@ header.startup h1{
    90%{color: DodgerBlue;}
      100%{color: orange;}
  }
+ h2{
+   color:black;
+   font-family: 'Lobster', cursive;
+  }
  .scores{
-margin-top:25em;
+margin-top:15em;
 display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
  }
 
  .circle {
@@ -99,5 +110,17 @@ display:flex;
   text-align: center;
   font-size: 25px;
   color: #fff;
+
+}
+.results{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+
+}
+.result1{
+  padding:-50px;      
+}
+.result2{
 
 }
